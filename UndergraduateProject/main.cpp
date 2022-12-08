@@ -13,9 +13,9 @@ using namespace std;
 
 
 // MODE（三选一）
-//#define OPERATE_MODE
+#define OPERATE_MODE
 //#define RECORD_MODE		// 此模式不要同时按两个或以上的按键，不然会出错
-#define PLAY_MODE
+//#define PLAY_MODE
 
 int frame_tot = 0;
 //
