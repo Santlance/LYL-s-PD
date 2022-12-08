@@ -1,0 +1,1693 @@
+﻿  Compiling CUDA source file projective_dynamics\pd_cuda.cu...
+  
+  C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Softwares\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\x64\Release\pd_cuda.cu.obj "C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_cuda.cu" 
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/Default/Half.h(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/Default/BFloat16.h(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/GPU/PacketMath.h(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/Default/GenericPacketMathFunctions.h(676): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(132): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(132): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1535): warning #20013-D: calling a constexpr __host__ function("real") from a __host__ __device__ function("abs") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1535): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("abs") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1535): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1535): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1540): warning #20013-D: calling a constexpr __host__ function("real") from a __host__ __device__ function("abs") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1540): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("abs") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1540): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1540): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1564): warning #20013-D: calling a constexpr __host__ function("real") from a __host__ __device__ function("exp") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1565): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("exp") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1566): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("exp") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1564): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1565): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1566): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1567): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1572): warning #20013-D: calling a constexpr __host__ function("real") from a __host__ __device__ function("exp") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1573): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("exp") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1574): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("exp") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1572): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1573): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1574): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(1575): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(223): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(223): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(233): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(233): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(248): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(248): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(110): warning #20013-D: calling a constexpr __host__ function("real") from a __host__ __device__ function("run") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::real_impl<std::complex<T>>::run(const std::complex<T> &) [with T=float]" 
+  (1232): here
+              instantiation of "Eigen::internal::real_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::real(const Scalar &) [with Scalar=std::complex<float>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(110): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::real_impl<std::complex<T>>::run(const std::complex<T> &) [with T=float]" 
+  (1232): here
+              instantiation of "Eigen::internal::real_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::real(const Scalar &) [with Scalar=std::complex<float>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(158): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("run") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::imag_impl<std::complex<T>>::run(const std::complex<T> &) [with T=float]" 
+  (1253): here
+              instantiation of "Eigen::internal::imag_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::imag(const Scalar &) [with Scalar=std::complex<float>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(158): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::imag_impl<std::complex<T>>::run(const std::complex<T> &) [with T=float]" 
+  (1253): here
+              instantiation of "Eigen::internal::imag_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::imag(const Scalar &) [with Scalar=std::complex<float>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(234): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(58): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_multiply(const std::complex<T> &, const std::complex<T> &) [with T=float]" 
+  (234): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(71): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide_fast(const std::complex<T> &, const std::complex<T> &) [with T=float]" 
+  (96): here
+              instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide(const std::complex<T> &, const std::complex<T> &) [with T=float]" 
+  (234): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(110): warning #20013-D: calling a constexpr __host__ function("real") from a __host__ __device__ function("run") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::real_impl<std::complex<T>>::run(const std::complex<T> &) [with T=double]" 
+  (1232): here
+              instantiation of "Eigen::internal::real_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::real(const Scalar &) [with Scalar=std::complex<double>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(110): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::real_impl<std::complex<T>>::run(const std::complex<T> &) [with T=double]" 
+  (1232): here
+              instantiation of "Eigen::internal::real_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::real(const Scalar &) [with Scalar=std::complex<double>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(158): warning #20013-D: calling a constexpr __host__ function("imag") from a __host__ __device__ function("run") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::imag_impl<std::complex<T>>::run(const std::complex<T> &) [with T=double]" 
+  (1253): here
+              instantiation of "Eigen::internal::imag_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::imag(const Scalar &) [with Scalar=std::complex<double>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/MathFunctions.h(158): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "T Eigen::internal::imag_impl<std::complex<T>>::run(const std::complex<T> &) [with T=double]" 
+  (1253): here
+              instantiation of "Eigen::internal::imag_retval<Eigen::internal::global_math_functions_filtering_base<Scalar, void>::type>::type Eigen::numext::imag(const Scalar &) [with Scalar=std::complex<double>]" 
+  C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(235): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(58): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_multiply(const std::complex<T> &, const std::complex<T> &) [with T=double]" 
+  (235): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/CUDA/Complex.h(71): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+            detected during:
+              instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide_fast(const std::complex<T> &, const std::complex<T> &) [with T=double]" 
+  (96): here
+              instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide(const std::complex<T> &, const std::complex<T> &) [with T=double]" 
+  (235): here
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/Default/Half.h(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/Default/BFloat16.h(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/GPU/PacketMath.h(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/arch/Default/GenericPacketMathFunctions.h(676): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_vec4.hpp(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(132): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\glm\detail/type_vec1.hpp(132): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(223): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(223): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(233): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(233): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(248): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(248): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/DenseStorage.h(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning #20236-D: pragma "diag_suppress" is deprecated, use "nv_diag_suppress" instead
+  
+  pd_cuda.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(77): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(79): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(81): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(83): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(85): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(86): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(87): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(88): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(89): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(90): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(91): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(92): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(93): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(94): warning C4068: 未知的杂注“diag_suppress”
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src/Core/util/DisableStupidWarnings.h(95): warning C4068: 未知的杂注“diag_suppress”
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  tetMesh.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\load_model\tetMesh.cpp(60,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\load_model\tetMesh.cpp(65,21): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\load_model\tetMesh.cpp(70,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\load_model\tetMesh.cpp(111,67): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\load_model\tetMesh.cpp(121,77): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\load_model\tetMesh.cpp(157,30): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\load_model\tetMesh.cpp(168,30): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.h(47,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\main.cpp(28,23): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\main.cpp(31,23): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\main.cpp(174,2): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\main.cpp(203,63): warning C4305: “参数”: 从“double”到“const float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\main.cpp(246,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\main.cpp(246,9): message : 请考虑在格式字符串中使用“%zd”
+  pbd_constraint.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.h(47,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_constraint.cpp(181,19): warning C4018: “>”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_constraint.cpp(185,19): warning C4018: “>”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_constraint.cpp(202,7): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_constraint.cpp(201,7): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_constraint.cpp(206,79): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_constraint.cpp(214,37): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_constraint.cpp(286,64): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+  pbd_model.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.h(47,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(114,11): warning C4244: “初始化”: 从“double”转换到“Real”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(115,11): warning C4244: “初始化”: 从“double”转换到“Real”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(227,65): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(243,40): warning C4305: “初始化”: 从“double”到“Real”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(272,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(285,30): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(303,28): warning C4305: “=”: 从“double”到“Real”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(318,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(323,31): warning C4305: “参数”: 从“double”到“const float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(328,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(332,31): warning C4305: “参数”: 从“double”到“const float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(340,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(344,5): warning C4305: “参数”: 从“double”到“const Real”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(345,10): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(349,6): warning C4305: “参数”: 从“double”到“const Real”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(362,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(404,61): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(412,21): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(560,32): warning C4305: “初始化”: 从“double”到“Real”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(595,2): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(635,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(763,37): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(767,28): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(808,26): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\position_based_dynamics\pbd_model.cpp(844,20): warning C4018: “<”: 有符号/无符号不匹配
+  pd_constraint.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_constraint.cpp(88,21): warning C4244: “=”: 从“double”转换到“d_float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_constraint.cpp(162,22): warning C4305: “初始化”: 从“double”到“d_float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_constraint.cpp(163,22): warning C4305: “初始化”: 从“double”到“d_float”截断
+  pd_simulation.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation.cpp(10,15): warning C4305: “=”: 从“double”到“d_float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation.cpp(15,28): warning C4305: “=”: 从“double”到“d_float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation.cpp(40,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation.cpp(43,54): warning C4244: “参数”: 从“double”转换到“const Scalar”，可能丢失数据
+          with
+          [
+              Scalar=d_float
+          ]
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation.cpp(365,21): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation.cpp(440,16): warning C4244: “初始化”: 从“double”转换到“d_float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation.cpp(446,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  pd_simulation_cuda.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.h(47,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(38,28): warning C4305: “=”: 从“double”到“d_float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(41,14): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(60,26): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(66,44): warning C4244: “参数”: 从“d_float”转换到“int”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(70,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(105,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(118,26): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(148,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(160,62): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(237,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(245,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(273,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(288,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(339,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(340,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(341,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(343,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(344,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(345,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(347,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(348,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(349,72): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(351,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(352,70): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\projective_dynamics\pd_simulation_cuda.cpp(353,72): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+  cube.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  BoundingSphereHierarchy.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\simulation\BoundingSphereHierarchy.cpp(138,20): warning C4018: “<”: 有符号/无符号不匹配
+  CollisionDetection.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\simulation\CollisionDetection.cpp(138,13): warning C4244: “return”: 从“double”转换到“Real”，可能丢失数据
+  winCam.cpp
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\drago\Desktop\UndergraduateProject\3rd\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(30,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(96,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(97,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(102,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(103,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(104,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(105,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(126,15): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\drago\Desktop\UndergraduateProject\UndergraduateProject\winCam.cpp(161,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+  34 of 9232 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    214 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(context.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(input.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(init.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(window.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_window.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_time.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_init.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(monitor.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(vulkan.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(egl_context.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“C:\Users\drago\Desktop\UndergraduateProject\x64\Release\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  UndergraduateProject.vcxproj -> C:\Users\drago\Desktop\UndergraduateProject\x64\Release\UndergraduateProject.exe

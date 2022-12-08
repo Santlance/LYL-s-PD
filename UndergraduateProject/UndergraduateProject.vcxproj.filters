@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\render">
+      <UniqueIdentifier>{24cbaabc-a246-4ce5-ac07-3f0dbc5e50db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\load_model">
+      <UniqueIdentifier>{849770d5-5338-4e8d-b782-e40f7a2cee15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Images">
+      <UniqueIdentifier>{4f58b16a-6c47-40c4-92c4-6d49bbcfad73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Shaders">
+      <UniqueIdentifier>{17cb614c-e3c5-444a-b1e7-a665f8e982b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\projective_dynamics">
+      <UniqueIdentifier>{f1738f81-ba94-4118-b789-e958c8c02174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\position_based_dynamics">
+      <UniqueIdentifier>{1244d750-3c31-4a66-9824-b170fc5308fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\simulation">
+      <UniqueIdentifier>{8b1a7f19-b673-438f-9fff-9b62d6c37f46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="render\shader.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\glad.c">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\use_stb_image.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\texture.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="load_model\mesh.cpp">
+      <Filter>源文件\load_model</Filter>
+    </ClCompile>
+    <ClCompile Include="load_model\model.cpp">
+      <Filter>源文件\load_model</Filter>
+    </ClCompile>
+    <ClCompile Include="winCam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render\cube.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="load_model\tetMesh.cpp">
+      <Filter>源文件\load_model</Filter>
+    </ClCompile>
+    <ClCompile Include="projective_dynamics\pd_constraint.cpp">
+      <Filter>源文件\projective_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="projective_dynamics\pd_simulation.cpp">
+      <Filter>源文件\projective_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="projective_dynamics\pd_simulation_cuda.cpp">
+      <Filter>源文件\projective_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="position_based_dynamics\pbd_constraint.cpp">
+      <Filter>源文件\position_based_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="position_based_dynamics\pbd_model.cpp">
+      <Filter>源文件\position_based_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation\BoundingSphereHierarchy.cpp">
+      <Filter>源文件\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation\CollisionDetection.cpp">
+      <Filter>源文件\simulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="render\shader.h">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\texture.h">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="load_model\mesh.h">
+      <Filter>源文件\load_model</Filter>
+    </ClInclude>
+    <ClInclude Include="load_model\model.h">
+      <Filter>源文件\load_model</Filter>
+    </ClInclude>
+    <ClInclude Include="winCam.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render\cube.h">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="load_model\tetMesh.h">
+      <Filter>源文件\load_model</Filter>
+    </ClInclude>
+    <ClInclude Include="projective_dynamics\pd_constraint.h">
+      <Filter>源文件\projective_dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="projective_dynamics\pd_cuda.h">
+      <Filter>源文件\projective_dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="projective_dynamics\pd_simulation.h">
+      <Filter>源文件\projective_dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="projective_dynamics\pd_simulation_cuda.h">
+      <Filter>源文件\projective_dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="position_based_dynamics\pbd_constraint.h">
+      <Filter>源文件\position_based_dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="position_based_dynamics\pbd_model.h">
+      <Filter>源文件\position_based_dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation\AABB.h">
+      <Filter>源文件\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation\kdTree.h">
+      <Filter>源文件\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation\BoundingSphere.h">
+      <Filter>源文件\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation\BoundingSphereHierarchy.h">
+      <Filter>源文件\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation\CollisionDetection.h">
+      <Filter>源文件\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation\ObjectArray.h">
+      <Filter>源文件\simulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Shaders\model_phong.fs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\textureCube.fs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\textureCube.vs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\tet.fs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\tet.vs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\thread.fs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\thread.vs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="simulation\kdTree.inl">
+      <Filter>源文件\simulation</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\thread2.fs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\tet_phong.fs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\model_phong.vs">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="projective_dynamics\pd_cuda.cu">
+      <Filter>源文件\projective_dynamics</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
